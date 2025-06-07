@@ -1,1 +1,54 @@
 # canvas-at-a-glance
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Canvas At-A-Glance</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background-color: #f4f4f4;
+    }
+    h1 {
+      color: #333;
+    }
+    .section {
+      background: white;
+      padding: 15px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    a {
+      color: #0077cc;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <h1>Canvas At-A-Glance</h1>
+
+  <div class="section" id="canvas-data">
+    <h2>Canvas Announcements & Assignments</h2>
+    <p>To view your Canvas announcements and assignments, please login to your Canvas account:</p>
+    <a href="https://csus.instructure.com" target="_blank">Go to Canvas</a>
+  </div>
+
+  <div class="section">
+    <h2>Update ENS Contact Info</h2>
+    <p>Click below to update your Emergency Notification System (ENS) contact information:</p>
+    <a href="https://www.csus.edu/student-life/health-counseling/emergency-notification-system.html" target="_blank">Update ENS Info</a>
+  </div>
+
+  <div class="section">
+    <h2>Latest News from CSUS</h2>
+    <iframe src="https://www.csus.edu/news/" width="100%" height="400px" title="CSUS News"></iframe>
+  </div>
+
+</body>
+</html>
